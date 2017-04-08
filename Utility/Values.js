@@ -1,0 +1,1 @@
+var ProjectValues = {"SuccessMsg" : "Its Successful", "ErrorMsg" : "Its Error"};

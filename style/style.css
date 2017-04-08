@@ -1,0 +1,14 @@
+body{
+    /*text-align: center;*/
+    display: block;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: aliceblue;
+}
+label{
+    font-size: 18px;
+    padding-top: 10px;
+}
+span{
+    font-size: 14px;
+}

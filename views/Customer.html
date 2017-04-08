@@ -1,0 +1,17 @@
+
+<div>
+<h1>Customer Screen : {{Utility.ApplicationName}}{{Utility.version}}</h1>   
+<label>Sales Time:  {{::Customer.SalesdateAndTime}}</label><br/><br/>
+<label>Customer Name:</label>
+<input type="text" ng-model= "Customer.name"/><br/><br/>
+<label>Customer Code:</label>
+<input type="text" ng-model= "Customer.code"/><br/><br/>
+<label>Customer Amount:</label>
+<input type="text" ng-model= "Customer.amount" ng-change= "colorChange()" style= "background-color: {{AmountColor}}"/><br/><br/>
+<button ng-click= "submit()">Submit</button>
+<button ng-click= "Customer.calculateDiscount()">Discount</button>
+<div id= "divCustomerName">{{Customer.name}}</div><br/>
+<div id= "divCustomerCode">{{Customer.code}}</div><br/>
+</div>
+       
+
